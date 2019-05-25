@@ -27,7 +27,6 @@ public class LibraryTest {
         when(mockedList.get(0)).thenReturn(value);
 
         assertEquals(mockedList.get(0), value);
-
     }
 
 }
